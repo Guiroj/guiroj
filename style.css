@@ -1,0 +1,105 @@
+body{
+	background-image: url(IMG/background4.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.inicio { 
+	width: 80%; 
+	margin: auto;
+	margin-top: 2%;
+}
+
+.barranavegacion {
+	width: 80%; 
+	margin: auto;
+}
+
+.navbar{
+	padding: 0px;
+}
+
+.contenido {
+	background-color: #F4F4F4;
+	width: 80%;
+	margin: auto;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-style: solid; 
+	border-color: darkgrey;
+	border-width: thin;
+}
+
+.contenedorclientes{
+	background-color: #F4F4F4;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding: 60px;
+}
+
+.pie {
+	width: 80%; 
+	height: 200px;
+	margin: auto;
+	padding-top: 7%;
+}
+
+.logo{
+	width: 209px;
+	height: 160px;
+}
+
+.navbar{
+	background-color: #F4F4F4;
+	color: black;
+}
+
+.navbar-nav{
+	width: 100%; 
+	text-align: center;
+}
+
+.fas, .fa-bars{
+	color:darkgrey;
+}
+
+.nav-link{
+	border-style: solid; 
+	border-color: darkgrey;
+	border-width: thin;
+	color: black;
+	width: 25%;
+}
+
+.containerform{
+	width: 80%;
+	margin: auto;
+}
+
+@media screen and (max-width: 850px){
+	.navbar-nav{
+		/*background-color: yellow; */
+		width: 100%; 
+		text-align: center;
+	}
+
+	.nav-link{
+		border-style: solid; 
+		width: 100%;
+	}
+}
+
+.carousel-control-prev-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-indicators li{
+	background-color: black;
+}

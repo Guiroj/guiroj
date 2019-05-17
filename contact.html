@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>ArGiroc</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
+	<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<!--<script src="https://smtpjs.com/v3/smtp.js"></script>-->
+	<script type="text/javascript" src="sendemail.js"></script>
+
+</head>
+
+<body>
+	<div class="inicio">
+		<center><img src="IMG/Logo.png" class="logo" ></center>
+		<h2 class="text-center font-weight-light">Servicios de Pintura y Reparación</h2>
+	</div>
+	
+	<div class="barranavegacion">
+		<nav class="navbar navbar-expand-lg">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span><i class="fas fa-bars"></i></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<a class="nav-link" href="index.html">
+						<li class="nav-item">
+							Inicio
+						</li>
+					</a>
+					<a class="nav-link" href="us.html">
+						<li class="nav-item active">
+							Nosotros
+						</li>
+					</a>
+					<a class="nav-link" href="gallery.html">
+						<li class="nav-item">
+							Galería
+						</li>
+					</a>
+					<a class="nav-link" href="contact.html">
+						<li class="nav-item">
+							Contacto
+						</li>
+					</a>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<br>
+
+	<div class="contenido">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2><b>C</b>ontáctanos</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<br>
+					<address>
+						<p><b>ArGiroc spa</b></p><br>
+
+						<p>María Josefina #545<br>
+							Lampa<br>
+							<i class="fas fa-phone"></i> (56) 9 9082 1291</p><br>
+
+							<p>Guillermo Rojas Cruz<br>
+							<i class="far fa-envelope"></i> g.rojascruz70@gmail.com</p>
+						</address>
+						<br>
+					</div>
+					<div class="col-sm-8">
+						<div class="containerform">
+
+								<legend><b>E</b>nvíenos un mensaje</legend>
+
+								<!-- Name input-->
+								<div class="form-group">
+									<label class="col-md-3 control-label" for="name">Tu Nombre</label>
+									<div class="col-md-9">
+										<input id="name" name="name" type="text" placeholder="Nombre" class="form-control">
+									</div>
+								</div>
+
+								<!-- Email input-->
+								<div class="form-group">
+									<label class="col-md-3 control-label" for="email">Tu email</label>
+									<div class="col-md-9">
+										<input id="email" name="email" type="text" placeholder="Email" class="form-control">
+									</div>
+								</div>
+
+								<!-- Message body -->
+								<div class="form-group">
+									<label class="col-md-3 control-label" for="message">Tu mensaje</label>
+									<div class="col-md-9">
+										<textarea class="form-control" id="message" name="message" placeholder="Por favor, escriba su mensaje aquí..." rows="5"></textarea>
+									</div>
+								</div>
+
+								<!-- Form actions -->
+								<div class="form-group">
+									<div class="col-md-12 text-right">
+										<button type="button" class="btn btn-primary btn-lg" onclick="imprimir()">Enviar</button>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="pie">
+			<center>
+				<h1><i class="fab fa-instagram"></i></h1>
+				<h6>© 2019 by C. Rojas Alarcón</h6>
+			</center>
+		</div>
+
+
+
+	</body>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+	</html>
