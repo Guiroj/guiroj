@@ -14,14 +14,14 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	<!--<script src="https://smtpjs.com/v3/smtp.js"></script>-->
-	<script type="text/javascript" src="sendemail.js"></script>
+	<!--<script type="text/javascript" src="smtp.js"></script>
+	<script type="text/javascript" src="sendemail.js"></script>-->
 
 </head>
 
 <body>
 	<div class="inicio">
-		<center><img src="IMG/Logo.png" class="logo" ></center>
+		<center><a href="index.html"><img src="IMG/Logo.png" class="logo"></a></center>
 		<h2 class="text-center font-weight-light">Servicios de Pintura y Reparación</h2>
 	</div>
 	
@@ -66,56 +66,57 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-4 text-center">
+				<div class="col-sm-6 text-center">
 					<br>
-					<address>
-						<p><b>ArGiroc spa</b></p><br>
-
-						<p>María Josefina #545<br>
-							Lampa<br>
+					<address class="address">
+						<p><b>A</b>rGiroc spa
+							<hr></p>
+						<br>
+						<p><b>Guillermo Rojas Cruz</b><br><br>
+							<i class="far fa-envelope"></i> g.rojascruz70@gmail.com<br>
 							<i class="fas fa-phone"></i> (56) 9 9082 1291</p><br>
 
-							<p>Guillermo Rojas Cruz<br>
-							<i class="far fa-envelope"></i> g.rojascruz70@gmail.com</p>
+							<p><b>Juan Arévalo Muñoz</b><br></p>
+							<p><i class="fas fa-phone"></i> (56) 9 6806 3232</p>
 						</address>
 						<br>
 					</div>
-					<div class="col-sm-8">
-						<div class="containerform">
-
-								<legend><b>E</b>nvíenos un mensaje</legend>
-
-								<!-- Name input-->
-								<div class="form-group">
-									<label class="col-md-3 control-label" for="name">Tu Nombre</label>
-									<div class="col-md-9">
-										<input id="name" name="name" type="text" placeholder="Nombre" class="form-control">
-									</div>
-								</div>
-
-								<!-- Email input-->
-								<div class="form-group">
-									<label class="col-md-3 control-label" for="email">Tu email</label>
-									<div class="col-md-9">
-										<input id="email" name="email" type="text" placeholder="Email" class="form-control">
-									</div>
-								</div>
-
-								<!-- Message body -->
-								<div class="form-group">
-									<label class="col-md-3 control-label" for="message">Tu mensaje</label>
-									<div class="col-md-9">
-										<textarea class="form-control" id="message" name="message" placeholder="Por favor, escriba su mensaje aquí..." rows="5"></textarea>
-									</div>
-								</div>
-
-								<!-- Form actions -->
-								<div class="form-group">
-									<div class="col-md-12 text-right">
-										<button type="button" class="btn btn-primary btn-lg" onclick="imprimir()">Enviar</button>
-									</div>
-								</div>
+					<div class="col-sm-6">
+						<div class="container">
+							<img src="IMG/img3.jpg" class="img-fluid">
+							<h6 class="ref">Photo by <b>Alex Andrews</b> from <b>Pexels</b></h6>
 						</div>
+						<br>
+						<!--<div class="containerform">
+
+							<legend><b>E</b>nvíenos un mensaje</legend>
+							<div class="form-group">
+								<label class="col-md-3 control-label" for="name">Tu Nombre</label>
+								<div class="col-md-9">
+									<input id="name" name="name" type="text" placeholder="Nombre" class="form-control">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-md-3 control-label" for="email">Tu email</label>
+								<div class="col-md-9">
+									<input id="email" name="email" type="text" placeholder="Email" class="form-control">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-md-3 control-label" for="message">Tu mensaje</label>
+								<div class="col-md-9">
+									<textarea class="form-control" id="message" name="message" placeholder="Por favor, escriba su mensaje aquí..." rows="5"></textarea>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<div class="col-md-12 text-right">
+									<button type="button" class="btn btn-primary btn-lg" onclick="enviar()">Enviar</button>
+								</div>
+							</div>
+						</div>-->
 					</div>
 				</div>
 			</div>
@@ -124,7 +125,7 @@
 
 		<div class="pie">
 			<center>
-				<h1><i class="fab fa-instagram"></i></h1>
+				<!--<h1><i class="fab fa-instagram"></i></h1>-->
 				<h6>© 2019 by C. Rojas Alarcón</h6>
 			</center>
 		</div>
